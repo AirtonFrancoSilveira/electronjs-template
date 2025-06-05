@@ -6,13 +6,31 @@
   <title>Electron Template</title>
   <link rel="stylesheet" href="./src/renderer/style.css">
 </head>
-<body>
-  <h1>⚡️ Electron + Vite + TypeScript ⚡️</h1>
-  <p>Um template moderno para suas aplicações.</p>
-  <p>Versão do Node: <span id="node-version"></span></p>
-  <p>Versão do Chrome: <span id="chrome-version"></span></p>
-  <p>Versão do Electron: <span id="electron-version"></span></p>
-  
+<body class="bg-gray-900 font-sans">
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="max-w-md w-full bg-gray-800 shadow-lg rounded-lg p-8 text-center">
+      <h1 class="text-3xl font-bold text-white mb-2">
+        ⚡️ <span class="text-blue-400">Electron</span> + Vite + TypeScript ⚡️
+      </h1>
+      <p class="text-gray-400 mb-6">Um template moderno para suas aplicações.</p>
+
+      <div class="space-y-3 text-left">
+        <p class="text-gray-300">
+          Versão do Node:
+          <span id="node-version" class="font-mono bg-gray-700 text-blue-300 px-2 py-1 rounded"></span>
+        </p>
+        <p class="text-gray-300">
+          Versão do Chrome:
+          <span id="chrome-version" class="font-mono bg-gray-700 text-blue-300 px-2 py-1 rounded"></span>
+        </p>
+        <p class="text-gray-300">
+          Versão do Electron:
+          <span id="electron-version" class="font-mono bg-gray-700 text-blue-300 px-2 py-1 rounded"></span>
+        </p>
+      </div>
+    </div>
+  </div>
+
   <script type="module" src="/src/renderer/main.ts"></script>
 </body>
 </html> 

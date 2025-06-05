@@ -13,6 +13,15 @@ Este projeto foi cuidadosamente estruturado para seguir as melhores práticas de
 - 🧹 **Qualidade de Código**: Configuração pronta de ESLint e Prettier para um código consistente e livre de erros comuns.
 - 📂 **Estrutura de Projeto Clara**: Separação lógica das responsabilidades em `main`, `preload` e `renderer`.
 
+## 🛠️ Tecnologias Utilizadas
+
+- **[Electron](https://www.electronjs.org/)**: Framework para criar aplicações desktop com JavaScript, HTML e CSS.
+- **[Vite](https://vitejs.dev/)**: Ferramenta de build moderna que oferece uma experiência de desenvolvimento extremamente rápida.
+- **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utility-first para criar designs customizados rapidamente.
+- **[ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)**: Ferramentas para manter a qualidade e a consistência do código.
+- **[Electron Builder](https://www.electron.build/)**: Solução completa para empacotar e distribuir aplicações Electron.
+
 ## 📂 Estrutura do Projeto
 
 ```
@@ -27,7 +36,7 @@ electron-template/
 │   │   └── index.d.ts      # Definições de tipo para a API exposta
 │   └── renderer/           # Código do Processo de Renderização (Browser)
 │       ├── main.ts
-│       └── style.css
+│       └── style.css       # Ponto de entrada para o Tailwind CSS
 ├── index.html              # Template HTML principal
 ├── electron.vite.config.ts # Configuração do electron-vite
 ├── package.json

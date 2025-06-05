@@ -1,0 +1,31 @@
+# Dependências
+/node_modules
+
+# Arquivos de Build e Saída
+/dist
+/out
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de editores
+.vscode/
+.idea/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cache e temporários
+.npm
+.yarn-cache
+.pnp.* 
